@@ -13,7 +13,7 @@
         
         
         <form name="simpleForm" ng-submit="increment(number)">
-            <input type="number" required placeholder="number" ng-model="number" />
+            <input type="number" min="0" max="40" required placeholder="number" ng-model="number" />
             <p>search term: {{number}}</p>
             <button type="button" ng-click="increment(number)">increment number</button>
             <input type="submit" value="submit me" />
@@ -27,6 +27,13 @@
                     name: {{repo.name}} stargazers_count: {{repo.stargazers_count | number}}
                 </li>
             </ul>
+            
+            <div ng-include="'shamo.html'"></div>
+            <div ng-include="'shamo.html'"></div>
         </div>
+        
+        
+        
+        
     </body>
 </html>
