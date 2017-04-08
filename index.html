@@ -22,6 +22,11 @@
         <hr>
         <div ng-controller="myCtrl2">
             <p>{{testing}} hey yo</p>
+            <ul>
+                <li ng-repeat="repo in repos">
+                    name: {{repo.name}} stargazers_count: {{repo.stargazers_count | number}}
+                </li>
+            </ul>
         </div>
     </body>
 </html>
