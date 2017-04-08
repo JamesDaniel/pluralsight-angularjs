@@ -23,7 +23,7 @@
         <div ng-controller="myCtrl2">
             <p>{{testing}} hey yo</p>
             <ul>
-                <li ng-repeat="repo in repos">
+                <li ng-repeat="repo in repos | orderBy:'+stargazers_count'">
                     name: {{repo.name}} stargazers_count: {{repo.stargazers_count | number}}
                 </li>
             </ul>
