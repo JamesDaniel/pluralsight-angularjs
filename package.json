@@ -1,0 +1,27 @@
+{
+  "name": "pluralsight-angularjs",
+  "version": "1.0.0",
+  "description": "pluralsight angularjs tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm install && bower install && echo 'finished \"install-dependencies\" script'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamesDaniel/pluralsight-angularjs.git"
+  },
+  "keywords": [
+    "angularjs",
+    "bower"
+  ],
+  "author": "JamesDaniel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JamesDaniel/pluralsight-angularjs/issues"
+  },
+  "homepage": "https://github.com/JamesDaniel/pluralsight-angularjs#readme",
+  "dependencies": {
+    "bower": "^1.8.0"
+  }
+}
