@@ -6,6 +6,10 @@
         <script src="script.js"></script>
     </head>
     <body ng-app="app">
-        <h1 ng-controller="myCtrl">{{ test }}</h1>
+        <div ng-controller="myCtrl">
+        <h1>{{ test }}</h1>
+        
+        <img ng-show="imgUrl1!==''" ng-src="{{imgUrl}}" alt="profile image" />
+        </div>
     </body>
 </html>
